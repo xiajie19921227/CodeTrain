@@ -6,11 +6,11 @@ public class SingleLinkedList {
 
     public void  addNode (int value){
         Node newNode = new Node(value);
-        Node temp = head;
-        if(temp.next != null){
-            temp = temp.next;
+        Node currentNode = head;
+        while (currentNode.next!=null){
+           currentNode = currentNode.next;
         }
-        temp.next = newNode;
+        currentNode.next = newNode;
     }
 
     public void printLinkedList() {
