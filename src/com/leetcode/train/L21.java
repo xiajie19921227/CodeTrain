@@ -15,6 +15,7 @@ package com.leetcode.train;
 
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -48,6 +49,7 @@ public class L21 {
         l2_2.setNext(l2_3);
         l2_3.setNext(l2_4);
        printLinkedList(mergeTwoList_3(l1_1 ,l2_1));
+       // Arrays.sort();
     }
 
     public static  void printLinkedList(ListNode head) {
