@@ -4,10 +4,11 @@ import java.util.Arrays;
 
 public class BinarySearch {
     public static void main(String[] args) {
-        System.out.println(binarySearch(new int[]{1, 2, 2, 2, 3, 6, 8}, 3));
+        System.out.println(binarySearch(new int[]{1, 2, 2, 2, 3, 6, 8}, 8));
     }
 
     public static int binarySearch(int[] nums, int target) {
+        //必须要是有序的
         Arrays.sort(nums);
         int left = 0;
         int right = nums.length - 1;
