@@ -7,6 +7,6 @@ public class AutomicIntegerDemp {
         AtomicInteger count = new AtomicInteger();
         count.incrementAndGet();
         int a =0;
-        count.compareAndSet()
+        //count.compareAndSet()
     }
 }

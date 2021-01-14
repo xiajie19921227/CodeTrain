@@ -4,6 +4,9 @@ import javax.swing.*;
 import java.util.Arrays;
 import java.util.Collections;
 
+/**
+ *   翻转链表
+ */
 public class L206 {
 
     public static void main(String[] args) {
